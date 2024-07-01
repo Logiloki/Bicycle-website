@@ -1,0 +1,19 @@
+table{
+    margin:70px;
+    width:90%;
+}
+th {
+
+    font-size:20px;
+    font-family: 'calibri';
+    font-weight: bold;
+    border:1px solid;
+    padding: 10px;
+}
+td{
+    text-align:center;
+    font-family: 'calibri';
+    font-size:18px;
+    border:1px solid;
+    padding:10px ;
+}

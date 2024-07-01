@@ -1,0 +1,13 @@
+<nav class="navbar">
+    <div class="navdiv">
+        <div class="logo"><a href="#">Job search</a></div>
+        <?php
+        if(isset($_SESSION['login_status']))
+        {?>
+        
+        <div class="us_name"><i class="fa fa-user-circle" aria-hidden="true"></i><?php echo $_SESSION['name']; ?></div>
+        <div class="out"><a href="logout.php">Logout</a></div>
+
+        <?php } ?>
+    </div>
+</nav>
